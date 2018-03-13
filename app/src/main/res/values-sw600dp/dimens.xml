@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">26dp</dimen>
+    <dimen name="activity_vertical_margin">26dp</dimen>
+    <dimen name="fab_margin">26dp</dimen>
+
+    <dimen name="title_size">56sp</dimen>
+    <dimen name="but_size_menu">40sp</dimen>
+
+    <dimen name="your_score_size">62sp</dimen>
+    <dimen name="score_size">95sp</dimen>
+    <dimen name="name_size">40sp</dimen>
+    <dimen name="but_score_size">40sp</dimen>
+
+    <dimen name="instr_size">30sp</dimen>
+    <dimen name="title_instr_size">40sp</dimen>
+
+    <dimen name="score_best_size">60sp</dimen>
+    <dimen name="title_best_size">60sp</dimen>
+    <dimen name="name_best_size">90sp</dimen>
+
+    <dimen name="time_size">70sp</dimen>
+    <dimen name="roman_nb_size">50sp</dimen>
+    <dimen name="score_game_size">50sp</dimen>
+    <dimen name="height_game_size">30dp</dimen>
+
+    <dimen name="small_but_size">30sp</dimen>
+    <dimen name="big_but_size">42sp</dimen>
+</resources>

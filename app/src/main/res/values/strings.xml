@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Roman Numerals</string>
+
+    <string name="lastPlayer"></string>
+
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_instruct">InstructActivity</string>
+    <string name="title_activity_intruct">IntructActivity</string>
+    <string name="instructiuni">This game is a good practice for those who want to improve their knowledge of ROMAN NUMERALS. The aim of this game is to do as many points as you can. On each turn, you will have 10 seconds to find the associated arabic number for a given roman numeral. You will gain as many points as seconds left are when you give a good answer. As fast as you find the solution as many points you will receive. Be careful !!! After a while, you will have less time to type your number. If a turn seems too difficult for you, you can change the given numeral but you will lose 10 points. The game is over when you give a wrong answer, if your time has passed or if your score has become less then 0.\n GOOD LUCK !!!</string>
+    <string name="box_menu">IF YOU WANT TO SAVE YOUR PROGRESS, YOU HAVE TO BE CONNECTED TO INTERNET</string>
+</resources>

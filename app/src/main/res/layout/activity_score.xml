@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back">
+
+    <TextView
+        android:text="Your Score:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highScore"
+        android:layout_marginTop="53dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="@dimen/your_score_size"
+        android:fontFamily="serif"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="61dp"
+        android:layout_marginStart="61dp" />
+
+    <TextView
+        android:text="999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalPlayer"
+        android:textStyle="normal|bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="@dimen/score_size"
+        android:layout_below="@+id/highScore"
+        android:layout_alignRight="@+id/nameLastPlayer"
+        android:layout_alignEnd="@+id/nameLastPlayer" />
+
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/readyButton"
+        android:textSize="@dimen/but_score_size"
+        android:background="@drawable/buttonshape0"
+        android:layout_below="@+id/nameLastPlayer"
+        android:layout_alignLeft="@+id/nameLastPlayer"
+        android:layout_alignStart="@+id/nameLastPlayer"
+        android:layout_marginTop="22dp"
+        android:layout_alignRight="@+id/nameLastPlayer"
+        android:layout_alignEnd="@+id/nameLastPlayer" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameLastPlayer"
+        android:maxLength="9"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="@dimen/name_size"
+        android:layout_below="@+id/finalPlayer"
+        android:layout_centerHorizontal="true"
+        android:hint="Type your name " />
+
+
+</RelativeLayout>

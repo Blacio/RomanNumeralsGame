@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    android:weightSum="16">
+
+    <TextView
+        android:text="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:id="@+id/sec"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="@dimen/time_size"
+        android:fontFamily="serif"
+        android:textColor="#000000" />
+
+    <TextView
+        android:text="DCCCLXXXVIII"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_game_size"
+        android:layout_weight="2"
+        android:id="@+id/nr"
+        android:textSize="@dimen/roman_nb_size"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/height_game_size"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textStyle="normal|bold"
+        android:fontFamily="monospace"
+        android:background="@drawable/back_text"
+        android:textColor="#000000" />
+
+    <TextView
+        android:text="Score: 0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/score"
+        android:textSize="@dimen/score_game_size"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:weightSum="2">
+
+
+        <Button
+            android:text="CHANGE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/change"
+            android:textSize="@dimen/small_but_size"
+            android:background="@drawable/buttonshape0"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="normal|italic"
+            android:fontFamily="serif" />
+
+        <Button
+            android:text="READY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="@dimen/big_but_size"
+            android:background="@drawable/buttonshape0" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_game_size"
+        android:hint="Type here"
+        android:layout_weight="1.5"
+        android:inputType="phone"
+        android:id="@+id/result"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/height_game_size" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10.5"/>
+
+
+</LinearLayout>

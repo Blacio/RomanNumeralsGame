@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <TextView
+        android:text="ROMAN NUMBERS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:textColor="#000000"
+        android:textSize="@dimen/title_size"
+        android:fontFamily="serif-monospace" />
+
+    <Button
+        android:text="NEW GAME"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="40dp"
+        android:background="@drawable/buttonshape0"
+        android:id="@+id/startButton"
+        android:onClick="startClicked"
+        android:textSize="@dimen/but_size_menu"
+        />
+
+    <Button
+        android:text="INSTRUCTIONS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="40dp"
+        android:background="@drawable/buttonshape0"
+        android:id="@+id/instructButton"
+        android:onClick="intructClicked"
+        android:textSize="@dimen/but_size_menu"
+        />
+
+    <Button
+        android:text="BEST SCORE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="40dp"
+        android:id="@+id/bestButton"
+        android:onClick="bestClicked"
+        android:background="@drawable/buttonshape0"
+        android:textSize="@dimen/but_size_menu"
+        />
+</LinearLayout>

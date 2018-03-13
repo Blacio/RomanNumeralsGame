@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "590353160579",
+    "firebase_url": "https://roman-numerals-game.firebaseio.com",
+    "project_id": "roman-numerals-game",
+    "storage_bucket": "roman-numerals-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590353160579:android:98a6a5eb4e63e972",
+        "android_client_info": {
+          "package_name": "com.blacio.romannumeralsgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590353160579-q4lqau9m6hc6i4052fj60dboe3h81oem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXqkfZD5USPSJH71PdgHP1gt4MwglfYqo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

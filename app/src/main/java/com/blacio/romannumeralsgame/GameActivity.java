@@ -26,7 +26,7 @@ public class GameActivity extends Activity {
 
     AudioManager audio;
     InterstitialAd InterAd;
-    public final static String EXTRA_MESSAGE = "MESAJ_INUTIL";
+    public final static String EXTRA_MESSAGE = "MESAJ";
 
     MyCountDownTimer count = new MyCountDownTimer(10000, 1000);
     MyCountDownTimer count2 = new MyCountDownTimer(7000, 1000);
@@ -52,7 +52,7 @@ public class GameActivity extends Activity {
 
         try {
             InterAd = new InterstitialAd(this);
-            InterAd.setAdUnitId("ca-app-pub-5633100744974482/6404639459");
+            InterAd.setAdUnitId("***");
             AdRequest request2 = new AdRequest.Builder()
                     .build();
 
